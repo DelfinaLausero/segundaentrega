@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: rgb(13, 13, 13);
+
+}
+
+.banner{
+    background-image: url(.//Assets/imagenes/fondo.jpg);
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+       
+}
+
+nav {
+    padding: 20px;
+    color: white;
+
+}
+
+.MenuSuperior { 
+    list-style-type: georgian;
+    text-align:end;
+    
+}
+
+.MenuSuperior li {
+    display: inline-block;
+    
+}
+
+.MenuSuperior a {
+    text-decoration: none;
+    text-transform:uppercase;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+  
+    
+}
+
+    
+.titulo {
+    color: rgba(227, 223, 229, 0.616)
+    
+}
+    
+    
+
+.contenido {
+    line-height: 1.6;
+    background-color: rgb(164, 148, 148);
+    width: 60%;
+    float: left;
+    padding: 1rem;
+    border: solid rgb(248, 248, 248) 1px;
+    margin: 1rem;
+}
+
+.contenido img{
+    width: 40%;
+}
+
+
+.aside {
+    background-color: black;
+    width: 30%;
+    padding: 2rem;
+    height: 100px
+    border-bottom: dashed 5px;
+    float: right;
+    margin: 1rem;
+    border: solid black 1px;
+    color: white 
+    
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    padding: 2rem;
+    text-align: center;
+    
+}
+.footer__menu{
+list-style: none;
+text-align: center;
+} 
+
+.footer__titulo, {
+   font-size: 0.9rem;
+   text-align: center;
+   
+}  
+
+.footer__menu a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 0.7rem;
+} 
+
+.footer__creditos {
+    font-size: 0.6rem;
+    text-align: center;
+} 
+
+.enlace {
+    color: white;
+    text-decoration: none;
+    font-size: 0.6rem;
+    text-align: right;
+} 
+
+.formulario {
+background-color: rgb(203, 204, 205);
+} 
+
+.body__formulario {
+    background-color: rgb(7, 7, 7);
+    } 
+
+.SobreDrake {
+color: azure;
+
+} 
+
+.Albums__texto{
+    color: azure;
+    
+    } 
